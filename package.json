@@ -1,0 +1,22 @@
+{
+  "name": "imap-recent",
+  "version": "1.0.0",
+  "description": "Web-service getting some simple IMAP information through esup-pam-cas",
+  "scripts": {
+    "start": "./index.js",
+    "dev": "nodemon --watch . index.js"
+  },
+  "author": "Pascal Rigaux",
+  "license": "Apache-2.0",
+  "engines": { "node": ">=4.x" },
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "imap": "^0.8.19",
+    "split": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
